@@ -190,7 +190,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-19 10:02:55" itemprop="dateModified" datetime="2020-03-19T10:02:55+08:00">2020-03-19</time>
+                <time title="修改时间：2020-03-19 11:03:52" itemprop="dateModified" datetime="2020-03-19T11:03:52+08:00">2020-03-19</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -214,13 +214,14 @@
 
       
           <p>##第一篇测试文章</p>
-<p>今天在写三层和jsp时，犯了两个错误，找了很长时间</p>
-<p>==1.在dao层给对象设置值时：==<br>只用了rs.get方法，没有给对象赋值，也就是没有set导致list集合为空<br>附：list差值方法<br>此方法可以检测三层有么有从数据库中取到值，可以用来找bug</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">for(int i&#x3D;0;i&lt;list.size();i++)</span><br><span class="line">		&#123;</span><br><span class="line">		    news n &#x3D; list.get(i);</span><br><span class="line">		    System.out.println(&quot;ser层list&quot;+n.getTitle());</span><br><span class="line">		    System.out.println(&quot;ser层list&quot;+n.getAuthor());</span><br><span class="line">		    System.out.println(&quot;ser层list&quot;+n.getcreatedate());</span><br><span class="line">		    System.out.println(&quot;ser层list&quot;+n.getNid());</span><br><span class="line">		&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><ul>
+<li>代码高亮显示符号: ` (推荐)</li>
+<li>代码高亮显示符号: ~</li>
+</ul>
+<h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">这里是JavaScript代码</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">x,y</span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> x+y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>==2.在jsp中用c标签时，标签里的属性，在创建对象时，属性开头字母一定一定要小写==<br>如果不小心用了大写，不仅要改属性里的，set/get方法里的也要改！！！！</p>
-<p>==3.org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.NewsShow_jsp==<br>在jsp中删了  &lt;%@ taglib prefix=”c” uri=”<a href="http://java.sun.com/jsp/jstl/core&quot;" target="_blank" rel="noopener">http://java.sun.com/jsp/jstl/core&quot;</a> %&gt;  , 可行,不报错了</p>
-
+<p>说明：代码引用块  <code>add(x+y)</code>  用一个单引号</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">这里是java代码</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String [] args)</span></span>&#123;</span><br><span class="line">	</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
 
